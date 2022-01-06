@@ -10,12 +10,12 @@ const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
   dataSources,
-  plugins: [
-    ApolloServerPluginLandingPageGraphQLPlayground({
+  // plugins: [
+  //   ApolloServerPluginLandingPageGraphQLPlayground({
 
-    }),
-    ApolloServerPluginLandingPageDisabled
-  ]
+  //   }),
+  //   ApolloServerPluginLandingPageDisabled
+  // ]
 });
 
 module.exports = {
